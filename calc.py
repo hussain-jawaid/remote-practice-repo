@@ -8,4 +8,6 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    pass
+    if y == 0:
+        raise ValueError("cannot divide by zero")
+    return x / y
