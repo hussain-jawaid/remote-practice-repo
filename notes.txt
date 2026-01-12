@@ -1,0 +1,1 @@
+To delete your last commit in Git, use git reset HEAD~1 to undo the commit but keep changes, or git reset --hard HEAD~1 to delete the commit and all its changes (local only); for pushed commits, use the safer git revert HEAD or git reset --hard HEAD~1 followed by git push --force (use with caution). 
